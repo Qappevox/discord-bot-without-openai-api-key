@@ -5,7 +5,8 @@ import askGpt
 
 Bot = commands.Bot(intents=discord.Intents.all(), command_prefix='!')
 
-DISCORD_TOKEN = "MTA5MDA4OTMyOTU5MTg2MTMzMQ.Gt8yfg.IIWzDSCnhTtGY02541X8P4kCM2vXSrIrCxcyTk"
+#token reseted.
+DISCORD_TOKEN = ""
 
 @Bot.event
 async def on_ready():
